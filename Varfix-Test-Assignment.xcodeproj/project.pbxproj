@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4DD2D527381A310047D974 /* Garment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DD2D427381A310047D974 /* Garment.swift */; };
+		3E4DD2D727381A840047D974 /* GarmentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DD2D627381A840047D974 /* GarmentListViewModel.swift */; };
+		3E4DD2D927381FA00047D974 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DD2D827381FA00047D974 /* UITextField+Extension.swift */; };
+		3E4DD2DB273845BA0047D974 /* GarmentListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DD2DA273845B90047D974 /* GarmentListViewModelTests.swift */; };
+		3E4DD2DC2738498A0047D974 /* GarmentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DD2D627381A840047D974 /* GarmentListViewModel.swift */; };
+		3E4DD2DD273849930047D974 /* Garment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DD2D427381A310047D974 /* Garment.swift */; };
+		3E4DD2DE273849C50047D974 /* GarmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E622738162A001A48C8 /* GarmentTableViewCell.swift */; };
+		3E4DD2DF273849E70047D974 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E502738094D001A48C8 /* AppRouter.swift */; };
+		3E4DD2E0273849EC0047D974 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E53273809C7001A48C8 /* UIViewController+Extension.swift */; };
+		3E4DD2E1273849EF0047D974 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E5527380FA7001A48C8 /* UITableView+Extension.swift */; };
+		3E4DD2E2273849F20047D974 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E5727380FD8001A48C8 /* UITableViewCell+Extension.swift */; };
+		3E4DD2E3273849F40047D974 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DD2D827381FA00047D974 /* UITextField+Extension.swift */; };
+		3E4DD2E527384AAB0047D974 /* AddGarmentViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DD2E427384AAB0047D974 /* AddGarmentViewControllerTests.swift */; };
+		3E4DD2E727384DD30047D974 /* GarmentListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DD2E627384DD30047D974 /* GarmentListViewControllerTests.swift */; };
+		3E4DD2E9273851730047D974 /* GarmentTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DD2E8273851730047D974 /* GarmentTableViewCellTests.swift */; };
 		3E7D3E162735D460001A48C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E152735D460001A48C8 /* AppDelegate.swift */; };
 		3E7D3E182735D460001A48C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E172735D460001A48C8 /* SceneDelegate.swift */; };
-		3E7D3E1A2735D460001A48C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E192735D460001A48C8 /* ViewController.swift */; };
 		3E7D3E1D2735D460001A48C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7D3E1B2735D460001A48C8 /* Main.storyboard */; };
 		3E7D3E1F2735D462001A48C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7D3E1E2735D462001A48C8 /* Assets.xcassets */; };
 		3E7D3E222735D462001A48C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7D3E202735D462001A48C8 /* LaunchScreen.storyboard */; };
-		3E7D3E2D2735D462001A48C8 /* Varfix_Test_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E2C2735D462001A48C8 /* Varfix_Test_AssignmentTests.swift */; };
 		3E7D3E372735D462001A48C8 /* Varfix_Test_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E362735D462001A48C8 /* Varfix_Test_AssignmentUITests.swift */; };
 		3E7D3E392735D462001A48C8 /* Varfix_Test_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E382735D462001A48C8 /* Varfix_Test_AssignmentUITestsLaunchTests.swift */; };
+		3E7D3E482735DD65001A48C8 /* GarmentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E472735DD65001A48C8 /* GarmentsListViewController.swift */; };
+		3E7D3E492735DD66001A48C8 /* GarmentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E472735DD65001A48C8 /* GarmentsListViewController.swift */; };
+		3E7D3E4B2735E04F001A48C8 /* AddGarmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E4A2735E04F001A48C8 /* AddGarmentViewController.swift */; };
+		3E7D3E4C2735E04F001A48C8 /* AddGarmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E4A2735E04F001A48C8 /* AddGarmentViewController.swift */; };
+		3E7D3E512738094D001A48C8 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E502738094D001A48C8 /* AppRouter.swift */; };
+		3E7D3E54273809C7001A48C8 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E53273809C7001A48C8 /* UIViewController+Extension.swift */; };
+		3E7D3E5627380FA7001A48C8 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E5527380FA7001A48C8 /* UITableView+Extension.swift */; };
+		3E7D3E5827380FD9001A48C8 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E5727380FD8001A48C8 /* UITableViewCell+Extension.swift */; };
+		3E7D3E5F273811E4001A48C8 /* AddGarment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7D3E5E273811E4001A48C8 /* AddGarment.storyboard */; };
+		3E7D3E642738162A001A48C8 /* GarmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3E622738162A001A48C8 /* GarmentTableViewCell.swift */; };
+		3E7D3E652738162A001A48C8 /* GarmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E7D3E632738162A001A48C8 /* GarmentTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +60,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E4DD2D427381A310047D974 /* Garment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garment.swift; sourceTree = "<group>"; };
+		3E4DD2D627381A840047D974 /* GarmentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentListViewModel.swift; sourceTree = "<group>"; };
+		3E4DD2D827381FA00047D974 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		3E4DD2DA273845B90047D974 /* GarmentListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentListViewModelTests.swift; sourceTree = "<group>"; };
+		3E4DD2E427384AAB0047D974 /* AddGarmentViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGarmentViewControllerTests.swift; sourceTree = "<group>"; };
+		3E4DD2E627384DD30047D974 /* GarmentListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentListViewControllerTests.swift; sourceTree = "<group>"; };
+		3E4DD2E8273851730047D974 /* GarmentTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentTableViewCellTests.swift; sourceTree = "<group>"; };
 		3E7D3E122735D460001A48C8 /* Varfix-Test-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Varfix-Test-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7D3E152735D460001A48C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E7D3E172735D460001A48C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3E7D3E192735D460001A48C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E7D3E1C2735D460001A48C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E7D3E1E2735D462001A48C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E7D3E212735D462001A48C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E7D3E232735D462001A48C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E7D3E282735D462001A48C8 /* Varfix-Test-AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Varfix-Test-AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E7D3E2C2735D462001A48C8 /* Varfix_Test_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Varfix_Test_AssignmentTests.swift; sourceTree = "<group>"; };
 		3E7D3E322735D462001A48C8 /* Varfix-Test-AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Varfix-Test-AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7D3E362735D462001A48C8 /* Varfix_Test_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Varfix_Test_AssignmentUITests.swift; sourceTree = "<group>"; };
 		3E7D3E382735D462001A48C8 /* Varfix_Test_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Varfix_Test_AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E7D3E472735DD65001A48C8 /* GarmentsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentsListViewController.swift; sourceTree = "<group>"; };
+		3E7D3E4A2735E04F001A48C8 /* AddGarmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGarmentViewController.swift; sourceTree = "<group>"; };
+		3E7D3E502738094D001A48C8 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		3E7D3E53273809C7001A48C8 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		3E7D3E5527380FA7001A48C8 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		3E7D3E5727380FD8001A48C8 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		3E7D3E5E273811E4001A48C8 /* AddGarment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddGarment.storyboard; sourceTree = "<group>"; };
+		3E7D3E622738162A001A48C8 /* GarmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentTableViewCell.swift; sourceTree = "<group>"; };
+		3E7D3E632738162A001A48C8 /* GarmentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GarmentTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +114,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E4DD2D227381A0A0047D974 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E4DD2D427381A310047D974 /* Garment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E4DD2D327381A140047D974 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3E4DD2D627381A840047D974 /* GarmentListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		3E7D3E092735D460001A48C8 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +153,11 @@
 		3E7D3E142735D460001A48C8 /* Varfix-Test-Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				3E7D3E152735D460001A48C8 /* AppDelegate.swift */,
-				3E7D3E172735D460001A48C8 /* SceneDelegate.swift */,
-				3E7D3E192735D460001A48C8 /* ViewController.swift */,
-				3E7D3E1B2735D460001A48C8 /* Main.storyboard */,
+				3E7D3E52273809AB001A48C8 /* Extensions */,
+				3E7D3E4F2738093D001A48C8 /* AppRouter */,
+				3E7D3E5B273811A3001A48C8 /* AddGarment */,
+				3E7D3E462735DD40001A48C8 /* GarmentList */,
+				3E7D3E452735DD17001A48C8 /* AppDelegate */,
 				3E7D3E1E2735D462001A48C8 /* Assets.xcassets */,
 				3E7D3E202735D462001A48C8 /* LaunchScreen.storyboard */,
 				3E7D3E232735D462001A48C8 /* Info.plist */,
@@ -113,7 +168,10 @@
 		3E7D3E2B2735D462001A48C8 /* Varfix-Test-AssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				3E7D3E2C2735D462001A48C8 /* Varfix_Test_AssignmentTests.swift */,
+				3E4DD2DA273845B90047D974 /* GarmentListViewModelTests.swift */,
+				3E4DD2E427384AAB0047D974 /* AddGarmentViewControllerTests.swift */,
+				3E4DD2E627384DD30047D974 /* GarmentListViewControllerTests.swift */,
+				3E4DD2E8273851730047D974 /* GarmentTableViewCellTests.swift */,
 			);
 			path = "Varfix-Test-AssignmentTests";
 			sourceTree = "<group>";
@@ -125,6 +183,104 @@
 				3E7D3E382735D462001A48C8 /* Varfix_Test_AssignmentUITestsLaunchTests.swift */,
 			);
 			path = "Varfix-Test-AssignmentUITests";
+			sourceTree = "<group>";
+		};
+		3E7D3E452735DD17001A48C8 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D3E152735D460001A48C8 /* AppDelegate.swift */,
+				3E7D3E172735D460001A48C8 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3E7D3E462735DD40001A48C8 /* GarmentList */ = {
+			isa = PBXGroup;
+			children = (
+				3E4DD2D327381A140047D974 /* ViewModels */,
+				3E4DD2D227381A0A0047D974 /* Models */,
+				3E7D3E6027381602001A48C8 /* Components */,
+				3E7D3E5A27381032001A48C8 /* Controller */,
+				3E7D3E5927381023001A48C8 /* Interface */,
+			);
+			path = GarmentList;
+			sourceTree = "<group>";
+		};
+		3E7D3E4F2738093D001A48C8 /* AppRouter */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D3E502738094D001A48C8 /* AppRouter.swift */,
+			);
+			path = AppRouter;
+			sourceTree = "<group>";
+		};
+		3E7D3E52273809AB001A48C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D3E53273809C7001A48C8 /* UIViewController+Extension.swift */,
+				3E7D3E5527380FA7001A48C8 /* UITableView+Extension.swift */,
+				3E7D3E5727380FD8001A48C8 /* UITableViewCell+Extension.swift */,
+				3E4DD2D827381FA00047D974 /* UITextField+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3E7D3E5927381023001A48C8 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D3E1B2735D460001A48C8 /* Main.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		3E7D3E5A27381032001A48C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D3E472735DD65001A48C8 /* GarmentsListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3E7D3E5B273811A3001A48C8 /* AddGarment */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D3E5D273811C1001A48C8 /* Controller */,
+				3E7D3E5C273811B8001A48C8 /* Interface */,
+			);
+			path = AddGarment;
+			sourceTree = "<group>";
+		};
+		3E7D3E5C273811B8001A48C8 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D3E5E273811E4001A48C8 /* AddGarment.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		3E7D3E5D273811C1001A48C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D3E4A2735E04F001A48C8 /* AddGarmentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3E7D3E6027381602001A48C8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D3E612738160D001A48C8 /* Cells */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3E7D3E612738160D001A48C8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D3E622738162A001A48C8 /* GarmentTableViewCell.swift */,
+				3E7D3E632738162A001A48C8 /* GarmentTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +390,8 @@
 				3E7D3E222735D462001A48C8 /* LaunchScreen.storyboard in Resources */,
 				3E7D3E1F2735D462001A48C8 /* Assets.xcassets in Resources */,
 				3E7D3E1D2735D460001A48C8 /* Main.storyboard in Resources */,
+				3E7D3E5F273811E4001A48C8 /* AddGarment.storyboard in Resources */,
+				3E7D3E652738162A001A48C8 /* GarmentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +416,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E7D3E1A2735D460001A48C8 /* ViewController.swift in Sources */,
+				3E7D3E54273809C7001A48C8 /* UIViewController+Extension.swift in Sources */,
 				3E7D3E162735D460001A48C8 /* AppDelegate.swift in Sources */,
+				3E4DD2D527381A310047D974 /* Garment.swift in Sources */,
+				3E4DD2D727381A840047D974 /* GarmentListViewModel.swift in Sources */,
+				3E7D3E5627380FA7001A48C8 /* UITableView+Extension.swift in Sources */,
+				3E7D3E5827380FD9001A48C8 /* UITableViewCell+Extension.swift in Sources */,
 				3E7D3E182735D460001A48C8 /* SceneDelegate.swift in Sources */,
+				3E7D3E4B2735E04F001A48C8 /* AddGarmentViewController.swift in Sources */,
+				3E7D3E642738162A001A48C8 /* GarmentTableViewCell.swift in Sources */,
+				3E4DD2D927381FA00047D974 /* UITextField+Extension.swift in Sources */,
+				3E7D3E512738094D001A48C8 /* AppRouter.swift in Sources */,
+				3E7D3E482735DD65001A48C8 /* GarmentsListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +435,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E7D3E2D2735D462001A48C8 /* Varfix_Test_AssignmentTests.swift in Sources */,
+				3E4DD2E727384DD30047D974 /* GarmentListViewControllerTests.swift in Sources */,
+				3E4DD2E527384AAB0047D974 /* AddGarmentViewControllerTests.swift in Sources */,
+				3E4DD2E0273849EC0047D974 /* UIViewController+Extension.swift in Sources */,
+				3E7D3E492735DD66001A48C8 /* GarmentsListViewController.swift in Sources */,
+				3E4DD2DE273849C50047D974 /* GarmentTableViewCell.swift in Sources */,
+				3E4DD2DD273849930047D974 /* Garment.swift in Sources */,
+				3E4DD2E9273851730047D974 /* GarmentTableViewCellTests.swift in Sources */,
+				3E4DD2DF273849E70047D974 /* AppRouter.swift in Sources */,
+				3E4DD2E2273849F20047D974 /* UITableViewCell+Extension.swift in Sources */,
+				3E7D3E4C2735E04F001A48C8 /* AddGarmentViewController.swift in Sources */,
+				3E4DD2E1273849EF0047D974 /* UITableView+Extension.swift in Sources */,
+				3E4DD2E3273849F40047D974 /* UITextField+Extension.swift in Sources */,
+				3E4DD2DC2738498A0047D974 /* GarmentListViewModel.swift in Sources */,
+				3E4DD2DB273845BA0047D974 /* GarmentListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
