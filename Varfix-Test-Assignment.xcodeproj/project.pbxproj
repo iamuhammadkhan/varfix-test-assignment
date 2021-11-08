@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E362FDD2739C5C30012A789 /* AppDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E362FDC2739C5C30012A789 /* AppDataManager.swift */; };
 		3E4DD2D527381A310047D974 /* Garment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DD2D427381A310047D974 /* Garment.swift */; };
 		3E4DD2D727381A840047D974 /* GarmentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DD2D627381A840047D974 /* GarmentListViewModel.swift */; };
 		3E4DD2D927381FA00047D974 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DD2D827381FA00047D974 /* UITextField+Extension.swift */; };
@@ -60,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E362FDC2739C5C30012A789 /* AppDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataManager.swift; sourceTree = "<group>"; };
 		3E4DD2D427381A310047D974 /* Garment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garment.swift; sourceTree = "<group>"; };
 		3E4DD2D627381A840047D974 /* GarmentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentListViewModel.swift; sourceTree = "<group>"; };
 		3E4DD2D827381FA00047D974 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
@@ -114,6 +116,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E362FDB2739C5B10012A789 /* AppDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				3E362FDC2739C5C30012A789 /* AppDataManager.swift */,
+			);
+			path = AppDataManager;
+			sourceTree = "<group>";
+		};
 		3E4DD2D227381A0A0047D974 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +163,7 @@
 		3E7D3E142735D460001A48C8 /* Varfix-Test-Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				3E362FDB2739C5B10012A789 /* AppDataManager */,
 				3E7D3E52273809AB001A48C8 /* Extensions */,
 				3E7D3E4F2738093D001A48C8 /* AppRouter */,
 				3E7D3E5B273811A3001A48C8 /* AddGarment */,
@@ -423,6 +434,7 @@
 				3E7D3E5627380FA7001A48C8 /* UITableView+Extension.swift in Sources */,
 				3E7D3E5827380FD9001A48C8 /* UITableViewCell+Extension.swift in Sources */,
 				3E7D3E182735D460001A48C8 /* SceneDelegate.swift in Sources */,
+				3E362FDD2739C5C30012A789 /* AppDataManager.swift in Sources */,
 				3E7D3E4B2735E04F001A48C8 /* AddGarmentViewController.swift in Sources */,
 				3E7D3E642738162A001A48C8 /* GarmentTableViewCell.swift in Sources */,
 				3E4DD2D927381FA00047D974 /* UITextField+Extension.swift in Sources */,

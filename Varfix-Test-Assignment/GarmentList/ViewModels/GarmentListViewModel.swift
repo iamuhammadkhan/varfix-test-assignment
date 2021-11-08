@@ -17,11 +17,13 @@ class GarmentListViewModel: NSObject {
     private lazy var garments = [Garment]()
     
     func addNewGarment(with garment: Garment) {
-        garments.append(garment)
+        AppDataManager.shared.addNewGarment(garment)
         delegate?.garmentListUpdated()
     }
     
     func getGarments() -> [Garment] {
+        AppDataManager.shared.loadData()
+        garments = AppDataManager.shared.garments
         return garments
     }
     
